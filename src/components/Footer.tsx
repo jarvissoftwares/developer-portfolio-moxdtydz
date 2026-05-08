@@ -18,7 +18,7 @@ export default function Footer() {
             Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> using React & TypeScript
           </motion.p>
           <p className="text-sm text-muted-foreground">
-            © 2024 Alex Developer. All rights reserved.
+            © 2026 Alex Developer. All rights reserved.
           </p>
         </div>
       </div>

@@ -70,7 +70,9 @@ export default function ProjectGallery() {
             <div className="relative overflow-hidden">
               <motion.img
                 src={project.image}
-                alt={project.title}
+                alt={`Screenshot preview for ${project.title}`}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-48 object-cover"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
