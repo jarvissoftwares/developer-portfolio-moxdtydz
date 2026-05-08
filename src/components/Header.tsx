@@ -23,6 +23,7 @@ export default function Header() {
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub profile"
             className="text-muted-foreground hover:text-foreground transition-colors"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -33,6 +34,7 @@ export default function Header() {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
             className="text-muted-foreground hover:text-foreground transition-colors"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -41,6 +43,7 @@ export default function Header() {
           </motion.a>
           <motion.a
             href="mailto:alex@example.com"
+            aria-label="Email Alex Developer"
             className="text-muted-foreground hover:text-foreground transition-colors"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}

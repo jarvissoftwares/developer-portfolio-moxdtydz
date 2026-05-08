@@ -1,5 +1,3 @@
-import { motion } from 'motion/react'
-import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react'
 import Header from '@/components/Header'
 import Bio from '@/components/Bio'
 import ProjectGallery from '@/components/ProjectGallery'
